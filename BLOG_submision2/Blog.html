@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Blog</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="blog.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+    
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="recommendations.html">Recommendations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+    
+    <section id="blog">
+        <div class="blog-heading">
+            <header>
+                <h1>Welcome to Book Blog</h1>
+                <p>Explore the world of literature with our latest book reviews, recommendations, and more!</p>
+            </header>
+            <span>Recent Books</span>
+            <h3>Books</h3>
+        </div>
+        <div class="blog-container">
+            <!-- Grid Layout for Blog Posts -->
+            <div class="blog-grid">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img alt="blog" src="book_image.jpeg">
+                    </div>
+                    <div class="blog-text">
+                        <span>30 May 2024 / Web</span>
+                        <a href="index.html" class="blog-title">Real learning can be really fun!!</a>
+                        <p>Publishes regular content combining the best in books, adaptations, and authors with up-to-date news and information</p>
+                        <a href="index.html">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img alt="blog" src="The Art of War.jpg" id="size">
+                    </div>
+                    <div class="blog-text">
+                        <span>30 May 2024</span>
+                        <a href="index.html" class="blog-title">The Art of War</a>
+                        <p>Published on May 16, 2005, is a famous military treatise by Sun-tzu, providing essential advice on battlefield tactics and management strategies</p>
+                        <a href="index.html">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img alt="blog" src="The Hobbit.jpg" id="size">
+                    </div>
+                    <div class="blog-text">
+                        <span>30 May 2024</span>
+                        <a href="index.html" class="blog-title">The Hobbit</a>
+                        <p>Published on March 22, 1937, The Hobbit, or There and Back Again is a children's fantasy novel by English author J. R. R. Tolkien</p>
+                        <a href="index.html">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img alt="blog" src="A Little Life.jpg" id="size">
+                    </div>
+                    <div class="blog-text">
+                        <span>30 May 2024</span>
+                        <a href="index.html" class="blog-title">A Little Life</a>
+                        <p>Published on June 11, 2015, "A Little Life" by Hanya Yanagihara is a critically acclaimed novel exploring the lives of four friends, focusing on Jude, who bears deep emotional scars</p>
+                        <a href="index.html">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img alt="blog" src="The Lord of the Rings.jpeg" id="size">
+                    </div>
+                    <div class="blog-text">
+                        <span>30 May 2024</span>
+                        <a href="index.html" class="blog-title">The Lord of the Rings</a>
+                        <p>Published on June 15, 1954, by J. R. R. Tolkien, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, focusing on Jude, who bears deep emotional scars</p>
+                        <a href="index.html">Read More</a>
+                    </div>
+                </div>
+                
+                <!-- New Blog Box -->
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img alt="blog" src="newbook.jpeg" id="size">
+                    </div>
+                    <div class="blog-text">
+                        <span>30 May 2024</span>
+                        <a href="index.html" class="blog-title">New Book Title</a>
+                        <p>Published on a recent date, this new book explores intriguing themes and offers fresh perspectives. It's a must-read for enthusiasts.</p>
+                        <a href="index.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="reviews.html">Follow us</a></li>
+            <li><a href="recommendations.html">More about us</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Recommend blogs</a></li>
+        </ul>
+        <ui-view>
+            Author info
+            <li><a href="https://www.facebook.com/AwwadKa/">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/ahmed-awwad-a76a91305/">Linkedin</a></li>
+            <li><a href="https://www.instagram.com/ahmed_awwad00/">Instagram</a></li>
+            Bio <br>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
+
+        </ui-view>
+    </nav>
+<footer>
+    <div class="footer-container">
+        <p>&copy; 2024 Book Blog. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
